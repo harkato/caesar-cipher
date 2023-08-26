@@ -39,8 +39,12 @@ def number_to_character(array)
         array[index] = character.chr
     end
 end
+
 puts "Text something: "
 string = gets.chomp
+
 puts "Encription key (number): "
 shift_factor = gets.chomp.to_i
+
+
 caesar_cipher(string, shift_factor)
